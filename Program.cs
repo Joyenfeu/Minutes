@@ -1,4 +1,7 @@
-﻿(int,int) heure_minute(int minute)
+﻿// Sous-programme heure-minute
+// Conertit un nombre de minutes au format H:M
+//Valeur de retour : un tuple (H,M)
+(int,int) heure_minute(int minute)
 {
     return (minute/60, minute%60);
 }
